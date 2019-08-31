@@ -1,9 +1,5 @@
-class Post
-  attr_reader :title
-  
-  def initialize(title)
-    @title = title
-  end
+class Title
+  attr_accessor :title
   
   
 end
